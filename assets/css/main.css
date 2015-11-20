@@ -1,0 +1,78 @@
+html {
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  margin-left: 12px;
+}
+
+div h4 {
+  font-family: 'Montserrat', sans-serif;
+  padding-top: 12px;
+  text-decoration: underline;
+}
+
+#meimage {
+  border-radius: 50%;
+}
+
+.navbar-header {
+  border-radius: 0%;
+}
+
+.resumeItems {
+  padding-left: 12px;
+}
+
+.infoBox {
+  border-style: none none solid none;
+  border-top-color: #90A4AE;
+  border-bottom-color: #455A64;
+  border-width: thin;
+  background: #607D8B;
+  padding: 25px;
+}
+
+.montFontLG {
+  color: #00ACC1;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 36px;
+  text-align: center;
+}
+
+.montFontMD {
+  color: #FFC400;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 24px;
+  text-align: left;
+  padding: 0;
+}
+
+.montFontSM {
+  color: #B2EBF2;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
+  text-align: center;
+  padding: 0 5%;
+}
+
+.bodyText {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
+  text-align: left;
+  padding: 0 12px;
+}
+
+.shadow {
+  box-shadow: 0 0 15px 5px #222;
+}
+
+.darkerBG {
+  padding: 25px;
+  margin: 25px;
+  background: #555;
+  border-bottom: solid;
+  border-width: thin;
+  border-color: #000;
+}
