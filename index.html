@@ -13,7 +13,7 @@
 </head>
 
 <body>
-  <div style="background-color: #333">
+  <div style="background: linear-gradient(#CFD8DC, #FAFAFA)">
     <header class="navbar-inverse hidden-xs" role="banner">
       <nav role="navigation">
         <div class="container-fluid">
@@ -31,8 +31,8 @@
           <div class="collapse navbar-collapse" id="navbar">
             <ul class="nav navbar-nav">
               <li><a href="#about">About</a></li>
-              <li><a href="#projects">Projects</a></li>
               <li><a href="#resume">Resume</a></li>
+              <li><a href="#projects">Projects</a></li>
               <li><a href="#contact">Contact</a></li>
             </ul>
           </div><!-- /.navbar-collapse -->
@@ -41,41 +41,69 @@
     </header>
     <!-- TODO: add social media icons -->
     <div class="row" id="banner">
-      <div class="container darkerBG shadow col-md-offset-4 col-md-4 col-sm-offset-4 col-sm-4 col-xs-12">
+      <div class="container col-md-offset-4 col-md-4 col-sm-offset-4 col-sm-4 col-xs-12">
         <p class="montFontLG">Michael Watts</p>
         <p class="montFontSM">Welcome to my personal<br/>
           portfolio webiste
         </p>
-        <!-- TODO: fix this -->
-        <!--<div class="three columns">
-        <ul class="large-block-grid-3">
-        <li><a href="https://www.linkedin.com/in/michael-watts-4908392a"><img src="images/linkedicon.png" alt=""/></a></li>
-        <li><a href="https://www.linkedin.com/in/michael-watts-4908392a"><img src="images/linkedicon.png" alt=""/></a></li>
-        <li><a href="https://www.linkedin.com/in/michael-watts-4908392a"><img src="images/linkedicon.png" alt=""/></a></li>
-      </ul>
-    </div>-->
-  </div>
-</div>
-<div class="row">
-  <div class="container infoBox" id="about">
-    <img src="images/me.png" alt="" class="col-xl-2 col-lg-2 col-md-2 col-sm-2 col-xs-4" id="meimage"/>
-    <h3 class="montFontMD">About Me</h3>
-
-    <p class="bodyText">"Hey everyone! My name is Michael Watts and I’m an aspiring Full Stack web and apps developer.
-      I am based out of West Chester, PA where I live with my amazing fiance.
-      I’m looking to start my career as a Front End developer at a company that will allow me to grow and develop
-      as a team member and programmer.</p>
-      <p class="bodyText">
-        I attended college in Arizona where I received my BA in Visual Arts and Design.
-        Currently I’m working in the retail/customer service field as an Inventory and Merchandising Manager.
-        Through my career so far I’ve learned and developed excellent communication and leadership skills that I
-        hope to take into the tech industries.
-      </p>
+      </div>
     </div>
-  </div>
-  <!-- TODO: drop below resume and expand on this section. Add images and stuff -->
-  <div class="container infoBox" id="projects">
-    <h3 class="montFontMD">Projects</h3>
+    <div class="container infoBox shadow">
+      <div class="row">
+        <img src="images/me.png" alt="" class="col-xl-2 col-lg-2 col-md-2 col-sm-2 col-xs-2" id="meimage"/>
+        <h3 class="montFontMD" id="about">About Me</h3>
+
+        <p class="bodyText">"Hey everyone! My name is Michael Watts and I’m an aspiring Full Stack web and apps developer.
+          I am based out of West Chester, PA where I live with my amazing fiance.
+          I’m looking to start my career as a Front End developer at a company that will allow me to grow and develop
+          as a team member and programmer.</p>
+          <p class="bodyText">
+            I attended college in Arizona where I received my BA in Visual Arts and Design.
+            Currently I’m working in the retail/customer service field as an Inventory and Merchandising Manager.
+            Through my career so far I’ve learned and developed excellent communication and leadership skills that I
+            hope to take into the tech industries.
+          </p>
+        </div>
+
+        <h3 class="montFontMD" id="resume">Resume</h3>
+        <div class="row resumeItems">
+          <div class="col-lg-3 col-md-3">
+            <h4>Languages, Libraries, Frameworks</h4>
+            <ul class="bodyText">
+              <li>HTML/CSS</li>
+              <li>JavaScript/jQuery</li>
+              <li>Bootsrap</li>
+              <li>Foundation</li>
+              <li>Java</li>
+            </ul>
+            <h4>Software Skills</h4>
+            <ul class="bodyText">
+              <li>Atom</li>
+              <li>GitHub</li>
+              <li>PhotoshopCC</li>
+            </ul>
+          </div>
+          <div class="col-lg-9 col-md-9 col-sm-12 col-xs-12">
+            <h4>Professional Summary</h4>
+            <p class="bodyText">I am currently working as an Inventory and Merchandising Manager for Wawa, inc.  I've been here for almost
+              7 years now and I'm looking to make a change.  Throughout my career with Wawa I've developed skills focused on leadership,
+              time management, delegation, and interpersonal communication.  I'm looking to take those skills, coupled with my passion for
+              technology, and hit the ground running in a career in web and app development.
+            </p>
+            <p class="bodyText">
+              My long term goals are focused in Full Stack development.  I want to be able to help teams on both the front and back end of
+              the development process.
+            </p>
+            <h4>Education</h4>
+            <p class="bodyText">
+              Bachelors of Art; Visual Arts
+            </br>Collins College class of 2011
+          </br>Graduated Cum Laude
+        </p>
+      </div>
+    </div>
+    <!-- TODO:expand on this section. Add images and stuff -->
+    <h3 class="montFontMD" id="projects">Projects</h3>
     <div class="row">
       <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
         <p class="bodyText">"Lorem ipsum dolor sit amet, consectetur adipiscing elit,
@@ -108,48 +136,11 @@
         </p>
       </div>
     </div>
-  </div>
-
-  <div class="container infoBox" id="resume">
-    <h3 class="montFontMD">Resume</h3>
-    <div class="row resumeItems">
-      <div class="col-lg-2 col-md-2">
-        <h4>Language Skills</h4>
-        <ul class="bodyText">
-          <li>HTML/CSS</li>
-          <li>JavaScript</li>
-          <li>Java</li>
-          <li>jQuery</li>
-        </ul>
-        <h4>Software Skills</h4>
-        <ul class="bodyText">
-          <li>Atom</li>
-          <li>PhotoshopCC</li>
-          <li>Android Studio</li>
-        </ul>
-      </div>
-      <div class="col-lg-10 col-md-10 col-sm-12 col-xs-12">
-        <h4>Professional Summary</h4>
-        <p class="bodyText">"Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-          sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-          Ut enim ad minim veniam, quis nostrud exercitation ullamco
-          laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-          irure dolor in reprehenderit in voluptate velit esse cillum dolore
-          eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-          proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-        </p>
-        <h4>Education</h4>
-        <p class="bodyText">
-          Bachelors of Art; Visual Arts
-        </br>Collins College class of 2011
-      </br>Graduated Cum Laude
-    </p>
-  </div>
-</div>
-</div>
-
-<div class="container infoBox" id="contact">
-  <h3 class="montFontMD">Contact Me</h3>
+    <h3 class="montFontMD" id="contact">Contact Me</h3>
+    <p class="bodyText">
+      Email: mwatts1990@gmail.com
+    </br>Cell: 484.356.3984
+  </p>
 
 
 </div>

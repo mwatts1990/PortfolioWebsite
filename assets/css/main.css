@@ -1,6 +1,9 @@
-html {
+html, body {
+  width: 100%;
+  height: 100%;
   padding: 0;
   margin: 0;
+  overflow-x: hidden;
 }
 
 li {
@@ -11,6 +14,11 @@ div h4 {
   font-family: 'Montserrat', sans-serif;
   padding-top: 12px;
   text-decoration: underline;
+}
+
+
+#banner {
+  padding: 25px;
 }
 
 #meimage {
@@ -30,19 +38,19 @@ div h4 {
   border-top-color: #90A4AE;
   border-bottom-color: #455A64;
   border-width: thin;
-  background: #607D8B;
+  background: #EEEEEE;
   padding: 25px;
 }
 
 .montFontLG {
-  color: #00ACC1;
+  color: #009688;
   font-family: 'Montserrat', sans-serif;
   font-size: 36px;
   text-align: center;
 }
 
 .montFontMD {
-  color: #FFC400;
+  color: #FFCA28;
   font-family: 'Montserrat', sans-serif;
   font-size: 24px;
   text-align: left;
@@ -50,7 +58,7 @@ div h4 {
 }
 
 .montFontSM {
-  color: #B2EBF2;
+  color: #80CBC4;
   font-family: 'Montserrat', sans-serif;
   font-size: 12px;
   text-align: center;
@@ -65,7 +73,7 @@ div h4 {
 }
 
 .shadow {
-  box-shadow: 0 0 15px 5px #222;
+  box-shadow: 0 0 15px 5px #BDBDBD;
 }
 
 .darkerBG {
