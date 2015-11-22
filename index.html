@@ -8,15 +8,16 @@
   <link rel="stylesheet" href="assets/css/main.css" media="screen" title="no title" charset="utf-8">
   <link rel="stylesheet" href="assets/css/bootstrap.min.css">
   <link rel="stylesheet" href="assets/css/bootstrap-theme.min.css">
-  <script src="jquery-1.11.3.min.js"></script>
-  <script type="text/javascript" src="assets/js/main.js"></script>
+  <link rel="stylesheet" href="assets/css/foundation.min.css">
+
 </head>
 
 <body>
-  <div style="background: linear-gradient(#CFD8DC, #FAFAFA)">
+  <div style="background: linear-gradient(135deg, rgba(37,110,128,1) 0%, rgba(66,138,156,1) 23%, rgba(139,206,224,1) 80%);">
     <header class="navbar-inverse hidden-xs" role="banner">
       <nav role="navigation">
         <div class="container-fluid">
+          <!-- TODO: change navbar.  needs to match rest of webpage -->
           <!-- Brand and toggle get grouped for better mobile display -->
           <div class="navbar-header">
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false">
@@ -39,18 +40,20 @@
         </div><!-- /.container-fluid -->
       </nav>
     </header>
-    <!-- TODO: add social media icons -->
-    <div class="row" id="banner">
-      <div class="container col-md-offset-4 col-md-4 col-sm-offset-4 col-sm-4 col-xs-12">
-        <p class="montFontLG">Michael Watts</p>
-        <p class="montFontSM">Welcome to my personal<br/>
-          portfolio webiste
-        </p>
-      </div>
+    <div class="container" id="banner">
+      <img src="images/me.png" alt="" class="centeredImage hidden-xs"/>
+      <p class="montFontLG">Michael Watts</p>
+      <p class="montFontSM">Welcome to my personal<br/>
+        portfolio webiste
+      </p>
+      <ul class="small-block-grid-3" id="iconList">
+        <li class="icons"><a target="_blank" href="https://github.com/mwatts1990"><img src="images/github.png" alt="" /></a></li>
+        <li class="icons"><a target="_blank" href="https://www.linkedin.com/in/michael-watts-4908392a"><img src="images/linkedicon.png" alt="" /></a></li>
+        <li class="icons"><a target="_blank" href="https://twitter.com/MikePWatts"><img src="images/twitter.png" alt="" /></a></li>
+      </ul>
     </div>
     <div class="container infoBox shadow">
       <div class="row">
-        <img src="images/me.png" alt="" class="col-xl-2 col-lg-2 col-md-2 col-sm-2 col-xs-2" id="meimage"/>
         <h3 class="montFontMD" id="about">About Me</h3>
 
         <p class="bodyText">"Hey everyone! My name is Michael Watts and I’m an aspiring Full Stack web and apps developer.
@@ -68,7 +71,7 @@
         <h3 class="montFontMD" id="resume">Resume</h3>
         <div class="row resumeItems">
           <div class="col-lg-3 col-md-3">
-            <h4>Languages, Libraries, Frameworks</h4>
+            <h6>Languages, Libraries, Frameworks</h6>
             <ul class="bodyText">
               <li>HTML/CSS</li>
               <li>JavaScript/jQuery</li>
@@ -76,7 +79,7 @@
               <li>Foundation</li>
               <li>Java</li>
             </ul>
-            <h4>Software Skills</h4>
+            <h6>Software Skills</h6>
             <ul class="bodyText">
               <li>Atom</li>
               <li>GitHub</li>
@@ -84,7 +87,7 @@
             </ul>
           </div>
           <div class="col-lg-9 col-md-9 col-sm-12 col-xs-12">
-            <h4>Professional Summary</h4>
+            <h6>Professional Summary</h6>
             <p class="bodyText">I am currently working as an Inventory and Merchandising Manager for Wawa, inc.  I've been here for almost
               7 years now and I'm looking to make a change.  Throughout my career with Wawa I've developed skills focused on leadership,
               time management, delegation, and interpersonal communication.  I'm looking to take those skills, coupled with my passion for
@@ -94,7 +97,7 @@
               My long term goals are focused in Full Stack development.  I want to be able to help teams on both the front and back end of
               the development process.
             </p>
-            <h4>Education</h4>
+            <h6>Education</h6>
             <p class="bodyText">
               Bachelors of Art; Visual Arts
             </br>Collins College class of 2011
@@ -141,14 +144,12 @@
       Email: mwatts1990@gmail.com
     </br>Cell: 484.356.3984
   </p>
-
-
 </div>
-
-
 
 <footer></footer>
 </div>
 <script src="assets/js/bootstrap.min.js"></script>
+<script src="jquery-1.11.3.min.js"></script>
+<script type="text/javascript" src="assets/js/main.js"></script>
 </body>
 </html>
