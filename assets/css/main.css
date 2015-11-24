@@ -16,13 +16,22 @@ div h6 {
   text-decoration: underline;
 }
 
-#iconList{
-  list-style-type: none;
+#navigation a {
+  color: #E0F7FA;
+  text-decoration: none;
+  padding: 0;
+  margin: 0;
 }
 
-.icons {
-  display: inline;
-  padding: 12px;
+#navigation {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  padding: 12px 0;
+  margin: 0;
+}
+
+#iconList, #navigation{
+  list-style-type: none;
 }
 
 #banner {
@@ -33,9 +42,15 @@ div h6 {
   text-align: center;
 }
 
+.icons {
+  display: block;
+  display: inline;
+  padding: 12px;
+}
+
 .centeredImage {
   border-radius: 50%;
-  padding: 5px;
+  padding-bottom: 12px;
 }
 
 .navbar-inverse {
@@ -74,7 +89,7 @@ div h6 {
 }
 
 .montFontSM {
-  color: #80CBC4;
+  color: #E0F7FA;
   font-family: 'Montserrat', sans-serif;
   font-size: 12px;
   text-align: center;
@@ -85,7 +100,7 @@ div h6 {
   font-family: 'Montserrat', sans-serif;
   font-size: 12px;
   text-align: left;
-  padding: 0 12px;
+  padding-left: 12px;
 }
 
 .shadow {
